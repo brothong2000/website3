@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg{
+    background-color: rgba(246, 137, 3, 0.735);
+}
+.container{
+    background-image: url("./images/bg-4.png");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.main .img1 img{
+    width: 50%;
+}
+.main .bt img{
+    width: 20%;
+    padding:  0px 30px;
+    animation: anime 1s infinite ease-in-out alternate;
+    -webkit-animation: anime 1s infinite ease-in-out alternate;
+}
+@keyframes anime{
+    100%{
+        transform:translateY(20px);
+        /* -webkit-transform: translateY(20px);
+        -moz-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        -o-transform: translateY(20px); */
+    }
+}
+.main .text img{
+    width:80%;
+}
+.main .groups .img2 img{
+    width: 100%;
+}
+@keyframes rootate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.main .group2 .img3 img{
+    width: 100%;
+}
+.f{
+    background-color: black;
+    opacity: calc(60%);
+}
+strong{
+    color: white;
+    font-size: 25px;
+}
